@@ -4,7 +4,7 @@
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
-	<meta name="author" content="Corey Birnbaum" />
+	<meta name="author" content="Joerg Roth" />
 	<title>Grid</title>
 
 	<link href="css/normalize.css" rel="stylesheet" type="text/css"/>
@@ -40,7 +40,8 @@
 	window.addEventListener('load', function(evt) {
 		var scene = new vg.Scene({
 			element: document.getElementById('view'),
-			cameraPosition: {x:0, y:150, z:150}
+			//cameraPosition: {x:0, y:150, z:-150}
+			cameraPosition: {x:0, y:250, z:0}
 		}, true);
 
 		// this constructs the cells in grid coordinate space
